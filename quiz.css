@@ -1,0 +1,229 @@
+/* ==========================
+   QUIZ PAGE
+========================== */
+
+body{
+    background:#eef8ee;
+    font-family:'Poppins',sans-serif;
+}
+
+/* HERO */
+
+.hero-quiz{
+
+    background:linear-gradient(
+    135deg,
+    #1b5e20,
+    #43a047,
+    #81c784);
+
+    color:white;
+
+    text-align:center;
+
+    padding:80px 20px;
+
+}
+
+.hero-quiz h1{
+
+    font-size:4rem;
+    margin-bottom:15px;
+
+}
+
+.hero-quiz p{
+
+    font-size:1.2rem;
+
+}
+
+/* QUIZ */
+
+.quiz-container{
+
+    max-width:1000px;
+
+    margin:50px auto;
+
+    padding:20px;
+
+}
+
+.pergunta{
+
+    background:white;
+
+    margin-bottom:25px;
+
+    padding:30px;
+
+    border-radius:20px;
+
+    box-shadow:
+    0 10px 20px rgba(0,0,0,.08);
+
+}
+
+.pergunta h3{
+
+    color:#1b5e20;
+
+    margin-bottom:20px;
+
+}
+
+/* BOTÕES */
+
+.pergunta button{
+
+    padding:15px 25px;
+
+    margin:10px;
+
+    border:none;
+
+    border-radius:12px;
+
+    background:#43a047;
+
+    color:white;
+
+    font-size:1rem;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.pergunta button:hover{
+
+    background:#2e7d32;
+
+    transform:scale(1.05);
+
+}
+
+/* PLACAR */
+
+#pontuacao{
+
+    text-align:center;
+
+    font-size:2rem;
+
+    color:#2e7d32;
+
+    margin-top:40px;
+
+}
+
+#resultadoFinal{
+
+    text-align:center;
+
+    font-size:2.3rem;
+
+    margin-top:30px;
+
+    font-weight:bold;
+
+    color:#1b5e20;
+
+}
+
+/* CERTIFICADO */
+
+.certificado{
+
+    background:white;
+
+    padding:40px;
+
+    margin-top:40px;
+
+    border-radius:25px;
+
+    text-align:center;
+
+    box-shadow:
+    0 8px 25px rgba(0,0,0,.1);
+
+}
+
+/* BOTÃO VOLTAR */
+
+.voltar{
+
+    display:inline-block;
+
+    margin-top:40px;
+
+    padding:15px 35px;
+
+    background:#1b5e20;
+
+    color:white;
+
+    text-decoration:none;
+
+    border-radius:30px;
+
+}
+
+.voltar:hover{
+
+    background:#43a047;
+
+}
+
+/* BARRA DE PROGRESSO */
+
+.barra{
+
+    max-width:1000px;
+
+    height:20px;
+
+    margin:20px auto;
+
+    background:#ddd;
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+}
+
+.progresso{
+
+    width:0%;
+
+    height:100%;
+
+    background:#43a047;
+
+    transition:.5s;
+
+}
+
+/* RESPONSIVO */
+
+@media(max-width:768px){
+
+.hero-quiz h1{
+
+    font-size:2.5rem;
+
+}
+
+.pergunta button{
+
+    width:100%;
+
+}
+
+}
